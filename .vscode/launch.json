@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PlateformApiApplication<plateformAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.isoqualtech.plateformAPI.PlateformApiApplication",
+            "projectName": "plateformAPI",
+            "args": ""
+        }
+    ]
+}
