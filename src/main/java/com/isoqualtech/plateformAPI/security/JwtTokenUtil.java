@@ -22,7 +22,7 @@ import io.jsonwebtoken.UnsupportedJwtException;
 public class JwtTokenUtil {
 	private static final Logger Logger = LoggerFactory.getLogger(JwtTokenUtil.class);
 	
-	@Value("${jwtSecret}")
+	@Value("${jwtsecret}")
 	private String jwtSecret;
 	
 	@Value("${jwtExpirationMs}")
