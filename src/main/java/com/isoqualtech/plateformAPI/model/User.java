@@ -17,8 +17,8 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import lombok.Data;
 
 @Data
-@Entity(name = "userAuth")
-@Table(name = "userAuth")
+@Entity(name = "user_Auth")
+@Table(name = "user_Auth")
 @DynamicUpdate
 public class User implements Serializable{
 	/**
