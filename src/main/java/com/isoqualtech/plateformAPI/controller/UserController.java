@@ -88,7 +88,7 @@ public class UserController {
 	
 	
 	@PostMapping(value = "/create")
-	@PreAuthorize("hasRole('ADMIN')")
+	//@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<User> createUser(@RequestBody User user) {
 		String encodedPassword =passwordEncoder.encode(user.getPassword());
 		user.setPassword(encodedPassword);
