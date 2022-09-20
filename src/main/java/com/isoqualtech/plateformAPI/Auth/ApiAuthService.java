@@ -38,7 +38,7 @@ public class ApiAuthService implements UserDetailsService{
 	}
 	
 	/*
-	 * private Set<SimpleGrantedAuthority> getAuthority(User user) {
+	 * private Set<SimpleGrantedAuthority> getAuthority(User    user) {
         Set<SimpleGrantedAuthority> authorities = new HashSet<>();
         authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getRole()));
         {
